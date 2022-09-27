@@ -1,6 +1,32 @@
+/* Import fonts to be used */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oleo+Script&display=swap');
+
+/* Removing default html page styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Setting the default style for the body */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for any h1 elements */
+
+h1 {
+    font-family: 'Oleo Script', cursive;
+}
+/* Styling for logo */
+
 .logo {
     float: left;
     max-width: 100px;
     max-height: auto;
 
 }
+

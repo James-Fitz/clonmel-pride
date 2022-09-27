@@ -14,19 +14,27 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #353C40
+    ;
 }
 
 /* Styling for any h1 elements */
 
 h1 {
     font-family: 'Oleo Script', cursive;
+    font-weight: 200;
+    color: #353C40;
 }
 /* Styling for logo */
 
 .logo {
     float: left;
-    max-width: 100px;
-    max-height: auto;
-
+   
 }
 
+/* Styling nav bar at top of page */
+
+#menu {
+    list-style-type: none;
+}

@@ -28,13 +28,39 @@ h1 {
 }
 /* Styling for logo */
 
-.logo {
+#logo {
+    margin: 10px, 0, 0, 20px;
     float: left;
+    width: 180px;
+    height: 180px;
+    transition: 100ms; /* adds transition effect for 100ms to logo */
+    display: flex;
    
 }
 
+#logo-background {
+    padding: 0;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #353C40;
+    border-radius: 50%;
+    background-color: #00a2ff;
+}
+
+#logo:hover {
+    
+    scale: 1.1;
+}
 /* Styling nav bar at top of page */
 
 #menu {
     list-style-type: none;
+    font-size: 130%;
+}
+
+#menu li {
+    float: right;
+    display: inline-block;
+    margin-right: 30px;
 }

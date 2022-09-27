@@ -38,6 +38,8 @@ h1 {
    
 }
 
+/* Style for colored circle behid logo */
+
 #logo-background {
     padding: 0;
     margin-left: 20px;
@@ -57,10 +59,12 @@ h1 {
 #menu {
     list-style-type: none;
     font-size: 130%;
+    
 }
 
 #menu li {
     float: right;
     display: inline-block;
     margin-right: 30px;
+    
 }

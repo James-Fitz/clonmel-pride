@@ -17,7 +17,11 @@ body {
     font-weight: 300;
     color: #353C40;
 }
+/* Setting header position to relative to ensure positioning of header elements works as intended */
 
+header {
+    position: relative;
+}
 /* Styling for any h1 elements */
 
 h1 {
@@ -27,11 +31,16 @@ h1 {
     font-size: 75px;
 }
 
-/* Styling for banner text */
+/* Styling for banner area */
 
-    .banner-text {
-        clear: both;
-    }
+#banner-text {
+    position: absolute;
+    right: 50%;
+}
+
+#logo-container, #banner-text, #menu {
+    display: inline-block;
+}
 
 /* Styling for logo */
 
@@ -81,6 +90,9 @@ h1 {
 #menu {
     float: right;
     margin-right: 20px;
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
 }
 
 #menu ul {

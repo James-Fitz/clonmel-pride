@@ -22,10 +22,11 @@ body {
 /* Styling for any h1 elements */
 
 h1 {
-    font-family: 'Oleo Script', cursive;
-    font-weight: 200;
+    font-family: 'Oleo Script', cursive, sans-serif;
+    font-weight: 400;
     color: #353C40;
 }
+
 /* Styling for logo */
 
 #logo {
@@ -33,15 +34,19 @@ h1 {
     float: left;
     width: 190px;
     height: 190px;
-    transition: 100ms; /* adds transition effect for 100ms to logo */
+    transition: 500ms; /* adds transition effect for 100ms to logo */
    
+}
+
+#logo:hover {
+    
+    scale: 1.1; /*applies the scale transition on hover*/
 }
 
 /* Style for colored circle behid logo */
 
 #logo-background {
     padding: 0;
-   
     width: 200px;
     height: 200px;
     margin: 15px;
@@ -50,31 +55,41 @@ h1 {
     background-color: #d1dbde;
 }
 
-#logo:hover {
-    
-    scale: 1.1; /*applies the scale transition on hover*/
-}
 /* Styling nav bar at top of page */
 
 #menu {
+    float: right;
+    margin-right: 10px;
+}
+
+#menu ul {
     list-style-type: none;
     font-size: 130%;
-    
+    display: inline-block;
 }
 
 #menu li {
-    float: right;
     display: inline-block;
     margin-right: 30px;
+    position: relative;
 }
 
 #menu li a {
     text-decoration: none;
+    font-size: 150%;
     color: #353C40;
     font-weight: 500;
-    text-
+    background: linear-gradient(red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 500ms;
 }
 
+#menu li a:hover {
+    color: transparent;
+    font-size: 165%;
+  
+}
 /* styling for active nav menu item */
 
 .active {

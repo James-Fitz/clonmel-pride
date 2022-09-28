@@ -121,7 +121,15 @@ h1 {
 /* Styling for hr element */
 
 hr {
-    border:solid 1px #353C40;
-    width: 96%;
+    border:solid 2px #353C40;
+    width: 95%;
+    margin: auto;
     height: 1px;
+}
+
+/* Styling for video on home page */
+
+#video {
+   margin: 20px 50px;
+   text-align: center;
 }

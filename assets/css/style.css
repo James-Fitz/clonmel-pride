@@ -65,10 +65,9 @@ h1 {
 #menu ul {
     list-style-type: none;
     font-size: 130%;
-    display: inline-block;
 }
 
-#menu li {
+#menu ul li {
     display: inline-block;
     margin-right: 30px;
 }

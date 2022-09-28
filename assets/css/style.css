@@ -29,6 +29,8 @@ h1 {
     font-weight: 400;
     color: #353C40;
     font-size: 75px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Styling for banner area */
@@ -36,6 +38,7 @@ h1 {
 #banner-text {
     position: absolute;
     right: 50%;
+    bottom: 0%;
 }
 
 #logo-container, #banner-text, #menu {
@@ -53,8 +56,8 @@ h1 {
     margin: 15px;
     position: absolute;
     float: left;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 130px;
+    max-height: 130px;
 }
 
 #logo:hover {
@@ -63,21 +66,8 @@ h1 {
     /*applies the scale transition on hover*/
 }
 
-/* Style for colored circle behind logo */
 
-#logo-background {
-    
-    position: absolute;
-    padding: 0;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 15px 15px;
-    border: 1px solid #353C40;
-    border-radius: 50%;
-    background-color: #d1dbde;
-}
-
-/* Styling for container holding logo and logo-background */
+/* Styling for container holding logo */
 
 #logo-container {
     width: 150px;
@@ -91,7 +81,7 @@ h1 {
     float: right;
     margin-right: 20px;
    position: absolute;
-   bottom: 0px;
+   bottom: 20px;
    right: 0px;
 }
 
@@ -126,4 +116,12 @@ h1 {
 
 .active {
     border-bottom: 2px solid #353C40;
+}
+
+/* Styling for hr element */
+
+hr {
+    border:solid 1px #353C40;
+    width: 96%;
+    height: 1px;
 }

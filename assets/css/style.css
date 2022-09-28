@@ -15,8 +15,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #353C40
-    ;
+    color: #353C40;
 }
 
 /* Styling for any h1 elements */
@@ -25,41 +24,63 @@ h1 {
     font-family: 'Oleo Script', cursive, sans-serif;
     font-weight: 400;
     color: #353C40;
+    font-size: 75px;
 }
+
+/* Styling for banner text */
+
+    .banner-text {
+        clear: both;
+    }
 
 /* Styling for logo */
 
 #logo {
-   
+    transition: 500ms;
+    /* adds transition effect for 100ms to logo */
+}
+
+#logo img {
+    margin: 15px;
+    position: absolute;
     float: left;
-    width: 190px;
-    height: 190px;
-    transition: 500ms; /* adds transition effect for 100ms to logo */
-   
+    max-width: 150px;
+    max-height: 150px;
 }
 
 #logo:hover {
-    
-    scale: 1.1; /*applies the scale transition on hover*/
+
+    scale: 1.1;
+    /*applies the scale transition on hover*/
 }
 
-/* Style for colored circle behid logo */
+/* Style for colored circle behind logo */
 
 #logo-background {
+    
+    position: absolute;
     padding: 0;
-    width: 200px;
-    height: 200px;
-    margin: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 15px 15px;
     border: 1px solid #353C40;
     border-radius: 50%;
     background-color: #d1dbde;
+}
+
+/* Styling for container holding logo and logo-background */
+
+#logo-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
 }
 
 /* Styling nav bar at top of page */
 
 #menu {
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #menu ul {
@@ -69,7 +90,7 @@ h1 {
 
 #menu ul li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 #menu li a {
@@ -86,8 +107,9 @@ h1 {
 #menu li a:hover {
     color: transparent;
     font-size: 165%;
-  
+
 }
+
 /* styling for active nav menu item */
 
 .active {

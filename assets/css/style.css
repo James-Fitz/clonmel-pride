@@ -41,6 +41,10 @@ h1 {
     bottom: 0%;
 }
 
+#banner-text h1 {
+    font-size: 60px;
+}
+
 #logo-container, #banner-text, #menu {
     display: inline-block;
 }

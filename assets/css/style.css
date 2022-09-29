@@ -21,6 +21,7 @@ body {
 
 header {
     position: relative;
+    background-color: #dedede;
 }
 /* Styling for any h1 elements */
 
@@ -33,6 +34,14 @@ h1 {
     padding: 0;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #353C40;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
 /* Styling for banner area */
 
 #banner-text {
@@ -112,7 +121,7 @@ h1 {
 
 #menu li a:hover {
     color: transparent;
-    font-size: 165%;
+    font-size: 170%;
 
 }
 

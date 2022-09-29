@@ -22,6 +22,7 @@ body {
 header {
     position: relative;
     background-color: #dedede;
+    height: 120px;
 }
 /* Styling for any h1 elements */
 
@@ -30,21 +31,29 @@ h1 {
     font-weight: 400;
     color: #353C40;
     font-size: 75px;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #353C40;
+    font-size: 40px;
+    margin: 25px;
+    padding: 25px;
+}
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #353C40;
     font-size: 25px;
-    margin: 0;
-    padding: 0;
+    margin: 25px;
+    padding: 25px;
 }
 /* Styling for banner area */
 
-#banner-text {
+/* #banner-text {
     position: absolute;
     right: 50%;
     bottom: 0%;
@@ -53,7 +62,7 @@ p {
 #banner-text h1 {
     font-size: 60px;
 }
-
+*/
 #logo-container, #banner-text, #menu {
     display: inline-block;
 }
@@ -66,11 +75,11 @@ p {
 }
 
 #logo img {
-    margin: 15px;
+    margin: 5px 15px 15px 15px;
     position: absolute;
     float: left;
-    max-width: 130px;
-    max-height: 130px;
+    max-width: 110px;
+    max-height: 110px;
 }
 
 #logo:hover {
@@ -145,4 +154,15 @@ hr {
 #video {
    margin: 20px 50px;
    text-align: center;
+}
+
+/* Styling for footer */
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #dedede;
+    position: fixed;
+    bottom: 0px;
+
 }

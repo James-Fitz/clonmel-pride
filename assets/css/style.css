@@ -16,7 +16,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #353C40;
+    background-image: url(/assets/images/jasmin-sessler-VxKUQY3tLNs-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 /* Setting header position to relative to ensure positioning of header elements works as intended */
 
 header {
@@ -24,6 +28,7 @@ header {
     background-color: #dedede;
     height: 120px;
 }
+
 /* Styling for any h1 elements */
 
 h1 {
@@ -32,7 +37,9 @@ h1 {
     color: #353C40;
     font-size: 75px;
     margin: 10px;
-    padding: 10px;
+    text-align: center;
+    background-color: #dedede;
+
 }
 
 h2 {
@@ -41,8 +48,9 @@ h2 {
     color: #353C40;
     font-size: 40px;
     margin: 25px;
-    padding: 25px;
+    text-align: center;
 }
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -51,6 +59,7 @@ p {
     margin: 25px;
     padding: 25px;
 }
+
 /* Styling for banner area */
 
 /* #banner-text {
@@ -63,7 +72,9 @@ p {
     font-size: 60px;
 }
 */
-#logo-container, #banner-text, #menu {
+#logo-container,
+#banner-text,
+#menu {
     display: inline-block;
 }
 
@@ -102,9 +113,9 @@ p {
 #menu {
     float: right;
     margin-right: 20px;
-   position: absolute;
-   bottom: 20px;
-   right: 0px;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
 }
 
 #menu ul {
@@ -143,7 +154,7 @@ p {
 /* Styling for hr element */
 
 hr {
-    border:solid 2px #353C40;
+    border: solid 2px #353C40;
     width: 95%;
     margin: auto;
     height: 1px;
@@ -152,21 +163,22 @@ hr {
 /* Styling for video on home page */
 
 #video {
-   margin: 20px 50px;
-   text-align: center;
+    margin: 20px 50px;
+    text-align: center;
 }
 
 /* Styling for footer */
 
 footer {
+    bottom: 0;
     height: 60px;
     width: 100%;
-    background-color: #dedede;
+    background-color: red;
 }
 
 .social-icons {
     float: right;
-    margin: 20px 100px 20px 20px;
+    margin: 20px;
 }
 
 .social-icons i {
@@ -175,17 +187,17 @@ footer {
     margin-right: 20px;
 }
 
-.social-icons > li {
+.social-icons>li {
     display: inline;
 }
 
 .social-icons li i {
-    
+
     transition: 500ms;
 }
 
 .social-icons li i:hover {
-    
+
     opacity: 30%;
-    
+
 }

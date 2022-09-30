@@ -159,35 +159,33 @@ hr {
 /* Styling for footer */
 
 footer {
- 
-    height: 300px;
+    height: 60px;
     width: 100%;
     background-color: #dedede;
-    position: fixed;
-    bottom: 0px;
-
 }
 
-footer #socialicons {
+.social-icons {
     float: right;
-    margin-right: 40px;
-    position: absolute;
-    bottom: 20px;
-    right: 0px;
+    margin: 20px;
 }
 
-#socialicons ul {
-    list-style-type: none;
+.social-icons i {
+    font-size: 200%;
+    color: #353C40;
+    margin-right: 20px;
 }
 
-#socialicons ul li {
-    display: inline-block;
-    margin-right: 40px;
-    text-decoration: none;
-    height: 20px;
-    width: 20px;
+.social-icons > li {
+    display: inline;
 }
 
-#sponsors, #socialheading, #socialicons {
-    display: inline-block;
+.social-icons li i {
+    
+    transition: 500ms;
+}
+
+.social-icons li i:hover {
+    
+    color: #dedede;
+    
 }

@@ -193,7 +193,7 @@ footer {
 
 .social-icons li i {
 
-    transition: 500ms;
+    transition: 300ms;
 }
 
 .social-icons li i:hover {
@@ -201,3 +201,18 @@ footer {
     opacity: 30%;
 
 }
+
+/* Styling for back to top button */
+
+#to-top {
+    font-size: 200%;
+    border: 2px solid #353C40;
+    color: #353C40;
+    background-color: #dedede;
+    text-decoration: none;
+    transition: 300ms;
+    padding: 10px;
+}
+
+#to-top:hover {
+    opacity: 50%;

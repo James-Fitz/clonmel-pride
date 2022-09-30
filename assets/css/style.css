@@ -166,11 +166,11 @@ footer {
 
 .social-icons {
     float: right;
-    margin: 20px;
+    margin: 20px 100px 20px 20px;
 }
 
 .social-icons i {
-    font-size: 200%;
+    font-size: 250%;
     color: #353C40;
     margin-right: 20px;
 }
@@ -186,6 +186,6 @@ footer {
 
 .social-icons li i:hover {
     
-    color: #dedede;
+    opacity: 30%;
     
 }

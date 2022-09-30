@@ -34,11 +34,12 @@ header {
 h1 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
-    color: #353C40;
+    color: #dedede;
     font-size: 75px;
     margin: 10px;
     text-align: center;
-    background-color: #dedede;
+    text-shadow: -1px 2px 10px #353C40;
+
 
 }
 
@@ -133,16 +134,11 @@ p {
     font-size: 150%;
     color: #353C40;
     font-weight: 500;
-    background: linear-gradient(red, orange, yellow, green, blue, purple);
-    background-clip: text;
-    -webkit-background-clip: text;
-    transition: 500ms;
+    transition-duration: 300ms;
 }
 
 #menu li a:hover {
-    color: transparent;
-   
-
+    opacity: 50%;
 }
 
 /* styling for active nav menu item */

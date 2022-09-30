@@ -26,7 +26,7 @@ body {
 header {
     position: relative;
     background-color: #dedede;
-    height: 120px;
+    height: 60px;
 }
 
 /* Styling for any h1 elements */
@@ -89,8 +89,8 @@ p {
     margin: 5px 15px 15px 15px;
     position: absolute;
     float: left;
-    max-width: 110px;
-    max-height: 110px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #logo:hover {
@@ -114,7 +114,7 @@ p {
     float: right;
     margin-right: 20px;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 0px;
 }
 
@@ -141,7 +141,7 @@ p {
 
 #menu li a:hover {
     color: transparent;
-    font-size: 170%;
+   
 
 }
 
@@ -216,3 +216,4 @@ footer {
 
 #to-top:hover {
     opacity: 50%;
+}

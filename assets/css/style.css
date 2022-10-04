@@ -103,9 +103,9 @@ p {
 
 #menu {
     float: right;
-    margin-right: 20px;
+    margin-right: 1px;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     right: 0px;
 }
 
@@ -116,7 +116,7 @@ p {
 
 #menu ul li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 #menu li a {

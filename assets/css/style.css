@@ -64,7 +64,6 @@ p {
 /* Styling for banner area */
 
 #logo-container,
-#banner-text,
 #menu {
     display: inline-block;
 }
@@ -77,11 +76,11 @@ p {
 }
 
 #logo img {
-    margin: 5px 15px 15px 15px;
+    margin: 5px;
     position: absolute;
     float: left;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 #logo:hover {
@@ -139,9 +138,15 @@ p {
 
 /* Styling for video on home page */
 
-#video {
-    margin: 20px 50px;
+#videocontainer {
+    margin: 30px 50px;
     text-align: center;
+    height: 200px;
+}
+
+#video {
+    width: 80%;
+    height: auto;
 }
 
 /* Styling for footer */

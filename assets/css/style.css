@@ -26,7 +26,8 @@ body {
 header {
     position: relative;
     background-color: #dedede;
-    height: 60px;
+    height: 70px;
+    top: 0px;
 }
 
 /* Styling for any h1 elements */
@@ -66,21 +67,35 @@ p {
 #logo-container,
 #menu {
     display: inline-block;
+    
 }
 
 /* Styling for logo */
 
 #logo {
+    width: 130px;
+    height: 130px;
     transition: 500ms;
     /* adds transition effect for 100ms to logo */
 }
 
 #logo img {
-    margin: 5px;
-    position: absolute;
-    float: left;
-    max-width: 50px;
-    max-height: 50px;
+    
+    
+    width: 130px;
+    height: 130px;
+}
+
+#logo-container {
+
+    text-align: center;
+    background-color: #dedede;
+    border-radius: 50%;
+    margin: 30px;
+    /*positions the logo in the center of the parent container horizontally */
+    display: flex; 
+    justify-content: center;    
+
 }
 
 #logo:hover {
@@ -95,7 +110,6 @@ p {
 #logo-container {
     width: 150px;
     height: 150px;
-    position: relative;
 }
 
 /* Styling nav bar at top of page */
@@ -155,19 +169,21 @@ footer {
     bottom: 0;
     height: 60px;
     width: 100%;
+    border: 1px solid #353C40;
     background-color:#dedede;
 }
 
 .social-icons {
-    padding: 10px;
-    margin: 25px;
+   
+    padding-top: 13px;
     text-align: center;
+    height: 60px;
 }
 
 .social-icons i {
     font-size: 200%;
     color: #353C40;
-    margin-right: 50px;
+    margin: 0 20px;
 
 }
 

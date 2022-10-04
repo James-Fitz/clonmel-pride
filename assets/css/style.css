@@ -155,18 +155,20 @@ footer {
     bottom: 0;
     height: 60px;
     width: 100%;
-    background-color: red;
+    background-color:#dedede;
 }
 
 .social-icons {
-    float: right;
-    margin: 20px;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
 }
 
 .social-icons i {
-    font-size: 250%;
+    font-size: 200%;
     color: #353C40;
-    margin-right: 20px;
+    margin-right: 50px;
+
 }
 
 .social-icons>li {

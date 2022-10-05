@@ -302,8 +302,13 @@ footer {
 }
 
 form input[type="radio"] {
-    display: block;
+    
     margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-us-form div {
+    padding: 5px;
 }
 
 .text-input:hover {
@@ -348,7 +353,7 @@ textarea:focus {
     color: #dedede;
     opacity: 1;
     /* Firefox */
-    text-align: center;
+    text-align: left;
     font-size: 150%;
     opacity: 0.25;
 }
@@ -356,7 +361,7 @@ textarea:focus {
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
     color: #dedede;
-    text-align: center;
+    text-align: left;
     font-size: 150%;
     opacity: 0.25;
 }
@@ -364,7 +369,7 @@ textarea:focus {
 ::-ms-input-placeholder {
     /* Microsoft Edge */
     color: #dedede;
-    text-align: center;
+    text-align: left;
     font-size: 150%;
     opacity: 0.25;
 }

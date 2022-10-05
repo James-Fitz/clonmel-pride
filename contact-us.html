@@ -13,30 +13,53 @@
 </head>
 
 <body>
-    <header>
-        <div id="logo-background">
-            <a href="index.html">
-                <img src="assets/images/Clonmel Pride Logo.png" alt="Clonmel pride logo" id="logo">
-        </div>
-        </a>
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="index.html#donate">Donate</a>
-                </li>
-                <li>
-                    <a href="contact-us.html" class="active">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+    <main>
+        <section class="contact-us-form">
+        
+            <form 
+                action="https://clonmelpride.net/"
+                method="POST">
+                <h2>Let's get you signed up!</h2>
+                
+                    <label for="fname">First Name</label>
+                    <input type="text" name="first_name" id="fname" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="last_name" id="lname" required>
+                
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email_address" id="email" required>
+                    
+                    <p>Why are you contacting us?</p>
 
-        <footer>sponsors - icons linking to socials</footer>
+                    <label for="info">I want more information</label>  
+                    <input type="radio" name="contact_reason" id="info" value="info" required>
+                    
+                    <label for="involved">I want to get involved</label>  
+                    <input type="radio" name="contact_reason" id="involved" value="involved">
+               
+                    <label for="support">I'm looking for support</label>  
+                    <input type="radio" name="contact_reason" id="support" value="support">
+                
+                    <label for="volunteer">I want to volunteer</label>  
+                    <input type="radio" name="contact_reason" id="volunteer" value="volunteer">
+
+                    <label for="host">I want to host a Pride event</label>  
+                    <input type="radio" name="contact_reason" id="host" value="host">
+
+                    <label for="sponsor">I want to sponsor a Pride event</label>  
+                    <input type="radio" name="contact_reason" id="sponsor" value="sponsor">
+
+                    <label for="message">Input message below</label>
+                    <input type="textarea" name="message" id="message" required>
+
+                    <input type="submit" value="Send Message">
+                
+            </form>
+            
+        </section>
+
+    </main>
 </body>
 
 </html>

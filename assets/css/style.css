@@ -154,6 +154,47 @@ p {
     border-bottom: 2px solid #353C40;
 }
 
+/* Styling for footer */
+
+footer {
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    border: 1px solid #353C40;
+    background-color:#dedede;
+}
+
+.social-icons {
+   
+    padding-top: 13px;
+    text-align: center;
+    height: 60px;
+}
+
+.social-icons i {
+    font-size: 200%;
+    color: #353C40;
+    margin: 0 15px;
+
+}
+
+.social-icons>li {
+    display: inline;
+}
+
+.social-icons li i {
+
+    transition: 300ms;
+}
+
+.social-icons li i:hover {
+
+    opacity: 30%;
+
+}
+
+/* index.html styling */
+
 /* Styling for the hero-image" */
 
 #hero-outer {
@@ -197,45 +238,6 @@ p {
     height: auto;
 }
 
-/* Styling for footer */
-
-footer {
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    border: 1px solid #353C40;
-    background-color:#dedede;
-}
-
-.social-icons {
-   
-    padding-top: 13px;
-    text-align: center;
-    height: 60px;
-}
-
-.social-icons i {
-    font-size: 200%;
-    color: #353C40;
-    margin: 0 15px;
-
-}
-
-.social-icons>li {
-    display: inline;
-}
-
-.social-icons li i {
-
-    transition: 300ms;
-}
-
-.social-icons li i:hover {
-
-    opacity: 30%;
-
-}
-
 /* Styling for back to top button */
 
 #to-top {
@@ -251,3 +253,18 @@ footer {
 #to-top:hover {
     opacity: 50%;
 }
+
+/* Styling for contact-us.html */
+
+.contact-us-form {
+
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=textarea]:focus {
+    background-color:#dedede;
+  }
+  
+  textarea > form {
+    width: 100px;
+
+  }

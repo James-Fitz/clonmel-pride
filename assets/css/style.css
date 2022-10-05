@@ -290,50 +290,56 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #0066ff;
+    border-color: #405576;
 
 }
 
 input[type=text]:focus, input[type=email]:focus, input[type=textarea]:focus {
-    background-color:#0066ff;
+    background-color:#405576;
   }
-  
- input[type=textarea] {
-    width: 300px;
-    height: 200px;
- }
 
+  #message {
+    height: auto;
+    resize: none;
+    
+  }
  .send-message {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #0066ff;
+    background-color: #405576;
     color: #dedede;
     text-align: center;
 
  }
 
  .send-message:hover {
-    color: #0066ff;
+    color: #4a6792;
     background-color: #dedede;
  }
 
  /* Styling for placeholder text - taken from https://www.w3schools.com/*/
 
  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #fff;
+    color: #dedede;
     opacity: 1; /* Firefox */
     text-align: center;
+    font-size: 150%;
+    opacity: 0.25;
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #fff;
+    color: #dedede;
     text-align: center;
+    font-size: 150%;
+    opacity: 0.25;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #fff;
+    color: #dedede;
     text-align: center;
+    font-size: 150%;
+    opacity: 0.25;
   }

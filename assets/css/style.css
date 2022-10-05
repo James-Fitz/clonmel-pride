@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap');
 
+
+/* Smooth scrolling */
+
+html {
+    scroll-behavior: smooth
+}
+
 /* Removing default html page styling */
 
 * {
@@ -19,6 +26,7 @@ body {
     background-image: url(/assets/images/rainbowroad.jpg);
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 100px;
 }
 
 /* Setting header position to relative to ensure positioning of header elements works as intended */
@@ -162,6 +170,7 @@ footer {
     width: 100%;
     border: 1px solid #353C40;
     background-color: #dedede;
+    position: fixed;
 }
 
 .social-icons {
@@ -270,11 +279,11 @@ footer {
 
 .contact-us-form {
 
-    margin: 150px 10% 0 0;
+    margin: 150px 50% 0 0;
     color: #dedede;
     background-color: rgba(53, 60, 64, 0.75);
     max-width: 500px;
-    position: absolute;
+    position: relative;
     left: 10%;
     padding: 30px;
 }
@@ -291,12 +300,18 @@ footer {
 
 }
 
-#radio-heading {
-    padding: 10% 0 5% 0;
+.contact-us-form h3 {
+    padding: 10% 0 5% 10%;
+
+}
+
+form input[type="radio"] {
+    display: block;
+    margin-right: 10px;
 }
 
 .text-input:hover {
-    border-color: #405576;
+    border-color: #000000;
 
 }
 
@@ -321,6 +336,7 @@ textarea:focus {
     background-color: #405576;
     color: #dedede;
     text-align: center;
+    border: 1px solid #dedede;
 
 }
 

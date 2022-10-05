@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Clonmel Pride contact page">
-    <meta name="keywords" content="clonmel, pride, lgbt, lgbtq+, equality, queer, events, drag, parade, Tipperary, contact us">
+    <meta name="keywords"
+        content="clonmel, pride, lgbt, lgbtq+, equality, queer, events, drag, parade, Tipperary, contact us">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Contact Us</title>
@@ -14,8 +15,7 @@
 
 <header>
     <div id="logo-container">
-        <div id="logo"><a href="index.html"><img src="assets/images/Clonmel Pride Logo.png"
-                    alt="Clonmel pride logo">
+        <div id="logo"><a href="index.html"><img src="assets/images/Clonmel Pride Logo.png" alt="Clonmel pride logo">
             </a>
         </div>
     </div>
@@ -29,7 +29,7 @@
                 <a href="gallery.html">Gallery</a>
             </li>
             <li>
-                <a href="#donate">Donate</a>
+                <a href="index.html#donate">Donate</a>
             </li>
             <li>
                 <a href="contact-us.html" class="active">Contact us</a>
@@ -39,8 +39,6 @@
 </header>
 
 <body>
-
-
     <main>
         <section class="contact-us-section">
 
@@ -56,27 +54,28 @@
                 <label for="email">Email Address</label>
                 <input type="email" name="email_address" id="email" required class="text-input">
 
-                <h3 id="radio-heading">Why are you contacting us?</h3>
+                <h3>Why are you contacting us?</h3>
 
-                <label for="info">I want more information</label>
                 <input type="radio" name="contact_reason" id="info" value="info" required>
-
-                <label for="involved">I want to get involved</label>
+                <label for="info">I want more information</label>
+                
                 <input type="radio" name="contact_reason" id="involved" value="involved">
-
-                <label for="support">I'm looking for support</label>
+                <label for="involved">I want to get involved</label>
+                
                 <input type="radio" name="contact_reason" id="support" value="support">
-
-                <label for="volunteer">I want to volunteer</label>
+                <label for="support">I'm looking for support</label>
+                
                 <input type="radio" name="contact_reason" id="volunteer" value="volunteer">
-
-                <label for="host">I want to host a Pride event</label>
+                <label for="volunteer">I want to volunteer</label>
+                
                 <input type="radio" name="contact_reason" id="host" value="host">
-
-                <label for="sponsor">I want to sponsor a Pride event</label>
+                <label for="host">I want to host a Pride event</label>
+                
                 <input type="radio" name="contact_reason" id="sponsor" value="sponsor">
+                <label for="sponsor">I want to sponsor a Pride event</label>
+                
 
-                <label for="message">Input message below</label>
+                <label for="message"><h3>Input message below:</h3></label>
                 <textarea name="message" rows="10" placeholder="Add your message here!" id="message" required
                     class="text-input"></textarea>
 
@@ -87,6 +86,31 @@
         </section>
 
     </main>
+
+    <footer>
+
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com/TippClonmelCommunityPride/" target="_blank" rel="noopener"
+                    aria-label="Visits our Facebook page (Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/clonmelpride/" target="_blank" rel="noopener"
+                    aria-label="Visits our Instagram page (Opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UC9km42xECdJf3NGxoRy0BLg" target="_blank" rel="noopener"
+                    aria-label="Visits our Youtube page (Opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="malito:tipperaryclonmelpride@gmail.com" target="_blank" rel="noopener"
+                    aria-label="Send an email to our gmail account (Opens in a new tab)"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </li>
+        </ul>
+
+    </footer>
 
     <!-- Font Awesome script-->
 

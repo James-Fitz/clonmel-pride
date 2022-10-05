@@ -14,21 +14,22 @@
 
 <body>
     <main>
-        <section class="contact-us-form">
+        <section class="contact-us-section">
         
             <form 
                 action="https://clonmelpride.net/"
-                method="POST">
-                <h2>Please Get in Touch!</h2>
+                method="POST"
+                class="contact-us-form">
+                <h3 id="contact-title">Please Get in Touch! <i class="fa-solid fa-rainbow"></i></h3>
                 
                     <label for="fname">First Name</label>
-                    <input type="text" name="first_name" id="fname" required>
+                    <input type="text" name="first_name" id="fname" required class="text-input">
                     
                     <label for="lname">Last Name</label>
-                    <input type="text" name="last_name" id="lname" required>
+                    <input type="text" name="last_name" id="lname" required class="text-input">
                 
                     <label for="email">Email Address</label>
-                    <input type="email" name="email_address" id="email" required>
+                    <input type="email" name="email_address" id="email" required class="text-input">
                     
                     <p>Why are you contacting us?</p>
 
@@ -51,15 +52,21 @@
                     <input type="radio" name="contact_reason" id="sponsor" value="sponsor">
 
                     <label for="message">Input message below</label>
-                    <input type="textarea" rows="15" name="message" id="message" required>
+                    <input type="textarea" name="message" placeholder="Write us a nice message here!" id="message" required class="text-input">
 
-                    <input type="submit" value="Send Message">
+                    <input type="submit" value="Send Message" class="send-message">
                 
             </form>
             
         </section>
 
     </main>
+
+    <!-- Font Awesome script-->
+
+<script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
+
 </body>
+
 
 </html>

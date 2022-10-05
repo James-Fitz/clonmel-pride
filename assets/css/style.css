@@ -270,11 +270,12 @@ footer {
 
     margin: 150px 10% 0 0;
     color:#dedede;
-    background-color:#353C40;
+    background-color: rgba(53, 60, 64, 0.75);
     max-width: 500px;
     position: absolute;
     left: 10%;
     padding: 30px;
+    
 }
 
 .text-input {
@@ -289,12 +290,16 @@ footer {
 
 }
 
+#radio-heading {
+    padding: 10% 0 5% 0;
+}
+
 .text-input:hover {
     border-color: #405576;
 
 }
 
-input[type=text]:focus, input[type=email]:focus, input[type=textarea]:focus {
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
     background-color:#405576;
   }
 

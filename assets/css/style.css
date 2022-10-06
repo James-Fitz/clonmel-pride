@@ -285,14 +285,14 @@ footer {
     font-weight: bold;
     font-size: 19px;
     transition: 0.4s ease;
-    border-radius: 0 5px 5px 0;
+    border-radius: 25px 5px 5px 25px;
     user-select: none;
 }
 
 /* Place the "forward button" to the right */
 .forward {
     right: 0;
-    border-radius: 4px 0 0 4px;
+    border-radius: 5px 25px 25px 5px;
 }
 
 /*when the user hovers,add a black background with some little opacity */

@@ -532,3 +532,19 @@ textarea:focus {
     }
 }
 
+/* Breakpoint of 550px */
+
+@media screen and (max-width: 550px) {
+    .contact-us-form {
+        width: 450px;
+        margin: 120px 0px 0px 0px;
+        left: 0;
+    }
+
+    .contact-us-form #contact-title {
+        font-size: 150%;
+    }
+
+
+}
+

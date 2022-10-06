@@ -124,6 +124,7 @@ p {
 
 /* Styling nav bar at top of page */
 
+
 #menu {
     float: right;
     margin-right: 1px;
@@ -257,14 +258,14 @@ footer {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 600px;
+    max-width: 400px;
     position: relative;
     margin: auto;
 }
 
 .slideshow-container img {
     max-width: 300px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 /* Make the images invisible by default */
@@ -376,7 +377,7 @@ footer {
 #sponsor-images img {
     max-width: 200px;
     max-height: auto;
-    margin: 0 10px 25px 0;
+    margin: 0 35px 25px 0;
 
 }
 
@@ -515,3 +516,6 @@ textarea:focus {
     font-size: 150%;
     opacity: 0.25;
 }
+
+/* Media queries */ 
+/* 700px breakpoint for nav menu at top of screen */

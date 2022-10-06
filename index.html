@@ -2,39 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Script for image slideshow - taken from w3schools.com-->
-    <script>
-    let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        // Next/previous controls
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        // Thumbnail image controls
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-    <!-- End of script for slideshow - taken from w3schools.com -->
-
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,72 +82,7 @@
 
         <section>
             <h2>Pride 2022 List of Events!</h2>
-            <!-- The following code for image slideshow was taken from - w3schools.com-->
-            <!-- Slideshow container -->
-<div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides-fade">
-      <div class="numbertext">1 / 7</div>
-      <img src="assets/images/events/friday-poster.png" alt="Poster for Friday events">
-      <div class="text">Friday events</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 7</div>
-      <img src="assets/images/events/pride-couture poster.png" alt="Pride couture poster">
-      <div class="text">Pride couture</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 7</div>
-      <img src="assets/images/events/saturday-poster.png" alt="Saturday events poster">
-      <div class="text">Saturday events</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">4 / 7</div>
-        <img src="assets/images/events/pride-breakfast poster.png" alt="Pride breakfast poster">
-        <div class="text">Pride breakfast</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">5 / 7</div>
-        <img src="assets/images/events/family-fun-day-poster.png" alt="Family fun day poster">
-        <div class="text">Family fun day</div>
-      </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">6 / 7</div>
-        <img src="assets/images/events/saturday-night-poster.png" alt="Drag show poster">
-        <div class="text">Drag show</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">7 / 7</div>
-        <img src="assets/images/events/sunday-events-poster.png" alt="Sunday events poster">
-        <div class="text">Sunday events</div>
-      </div>
-
-     
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-    <span class="dot" onclick="currentSlide(7)"></span>
-  </div>
-  <!-- end of code taken from w3schools.com-->
         </section>
         <section>
             <a id="donate"><h2>Please Donate</h2></a>

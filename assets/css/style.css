@@ -254,7 +254,17 @@ footer {
 #gofundme-logo {
     width: 320px;
     height: auto;
+    transition: 300ms;
 }
+
+#gofundme-logo:hover {
+    opacity: 0.5;
+}
+#gofundme-button {
+    text-align: center;
+}
+
+
 
 /* Styling for back to top button */
 

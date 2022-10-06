@@ -264,11 +264,31 @@ footer {
     text-align: center;
 }
 
+/* Styling for sponsors section */
+
+#sponsors {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#sponsor-images img {
+    max-width: 200px;
+    max-height: auto;
+    margin: 0 10px 25px 0;
+
+}
+
+#sponsor-images li {
+    display: inline-block;
+}
+
 
 
 /* Styling for back to top button */
+#to-top-container {
+    text-align: center;
+}
 
-#to-top {
+#to-top-button {
     font-size: 200%;
     border: 2px solid #353C40;
     color: #353C40;

@@ -68,6 +68,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #353C40;
+    background-color: rgba(222, 222, 222, 0.5);
     font-size: 25px;
     margin: 25px;
     padding: 25px;

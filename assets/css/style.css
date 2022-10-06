@@ -202,22 +202,46 @@ footer {
 
 /* Styling for the hero-image" */
 
+
+/* commenting out for now
 #hero-outer {
     height: 700px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
     height: 700px;
     width: 100%;
-    background: url(../images/prideparade.jpg) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     /* animates zoom effect on loading page */
+    /*
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 }
+
+#cover-text, #cover-text h2, #cover-text h3 {
+    color: #353C40;
+    text-align: left;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Fira Sans', sans-serif;
+    width: 300px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color:rgba(222, 222, 222, 0.75);
+    border-radius: 25px;
+    bottom: 75px;
+    right: 75px;
+    position: absolute;
+}
+
+*/
 
 /* Styling zoom effect for hero image */
 
@@ -229,7 +253,7 @@ footer {
     to {
         transform: scale(1.1);
     }
-}
+} */
 
 /* Styling for video on home page */
 
@@ -451,14 +475,14 @@ form input[type="radio"] {
 }
 
 .text-input:hover {
-    border-color: #000000;
+    border-color:  rgba(53, 60, 64, 0.5);
 
 }
 
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
-    background-color: #405576;
+    background-color: rgba(53, 60, 64, 0.5);
 }
 
 #message {

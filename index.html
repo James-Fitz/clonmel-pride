@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,71 +84,103 @@
             <h2>Pride 2022 List of Events!</h2>
 
 
+            <!-- Code for slideshow taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->-->
+            <!-- Slideshow container -->
+            <div class="slideshow-container fade">
 
-             <!-- Slideshow container -->
-<div class="slideshow-container fade">
+                <!-- Full images with numbers and message Info -->
+                <div class="Containers">
+                    <div class="MessageInfo">1 / 7</div>
+                    <img src="assets/images/events/friday-poster.png" style="width:100%">
+                    <div class="Info">Friday Events</div>
+                </div>
 
-    <!-- Full images with numbers and message Info -->
-    <div class="Containers">
-      <div class="MessageInfo">1 / 3</div>
-      <img src="assets/images/events/friday-poster.png" style="width:100%">
-      <div class="Info">Friday</div>
-    </div>
-  
-    <div class="Containers">
-      <div class="MessageInfo">2 / 3</div>
-      <img src="assets/images/events/pride-couture poster.png" style="width:100%">
-      <div class="Info">Pride couture</div>
-    </div>
-  
-    <div class="Containers">
-      <div class="MessageInfo">3 / 3</div>
-      <img src="assets/images/events/saturday-poster.png" style="width:100%">
-      <div class="Info">Saturday</div>
-    </div>
-  
-    <!-- Back and forward buttons -->
-    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The circles/dots -->
-  <div style="text-align:center">
-    <span class="dots" onclick="currentSlide(1)"></span>
-    <span class="dots" onclick="currentSlide(2)"></span>
-    <span class="dots" onclick="currentSlide(3)"></span>
-  </div> 
+                <div class="Containers">
+                    <div class="MessageInfo">2 / 7</div>
+                    <img src="assets/images/events/pride-couture poster.png" style="width:100%">
+                    <div class="Info">Pride Couture</div>
+                </div>
 
+                <div class="Containers">
+                    <div class="MessageInfo">3 / 7</div>
+                    <img src="assets/images/events/saturday-poster.png" style="width:100%">
+                    <div class="Info">Saturday Events</div>
+                </div>
 
+                <div class="Containers">
+                    <div class="MessageInfo">4 / 7</div>
+                    <img src="assets/images/events/pride-breakfast poster.png" style="width:100%">
+                    <div class="Info">Pride Breakfast</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">5 / 7</div>
+                    <img src="assets/images/events/family-fun-day-poster.png" style="width:100%">
+                    <div class="Info">Family Fun Day</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">6 / 7</div>
+                    <img src="assets/images/events/saturday-night-poster.png" style="width:100%">
+                    <div class="Info">Drag Show</div>
+                </div>
+
+                <div class="Containers">
+                    <div class="MessageInfo">7 / 7</div>
+                    <img src="assets/images/events/sunday-events-poster.png" style="width:100%">
+                    <div class="Info">Sunday Events</div>
+                </div>
+
+                <!-- Back and forward buttons -->
+                <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The circles/dots -->
+            <div style="text-align:center">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+                <span class="dots" onclick="currentSlide(4)"></span>
+                <span class="dots" onclick="currentSlide(5)"></span>
+                <span class="dots" onclick="currentSlide(6)"></span>
+                <span class="dots" onclick="currentSlide(7)"></span>
+            </div>
+
+             <!-- End of code for slideshow taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->-->
 
         </section>
         <section>
-            <a id="donate"><h2>Please Donate</h2></a>
+            <a id="donate">
+                <h2>Please Donate</h2>
+            </a>
 
-            <p>As the Pride community is a 100% voluntary non profit committee, we rely heavily on the kindness and donations of the community. If you are in a position to help, please click the link below to be taken to our gofundme page. 
+            <p>As the Pride community is a 100% voluntary non profit committee, we rely heavily on the kindness and
+                donations of the community. If you are in a position to help, please click the link below to be taken to
+                our gofundme page.
                 Thank you for your support, we really appreciate it.
-            - Clonmel Pride Committee</p>
+                - Clonmel Pride Committee</p>
             <div id="gofundme-button">
-                <a href="https://www.gofundme.com/f/clonmel-pride-2022?qid=5cfbb19d66d37fb4af51a086880ccb84" target="_blank">
-                    <img src="assets/images/logos/gofundme-logo.png" 
-                    alt="Go fund me logo" 
-                    aria-label="Visit our gofundme page (Opens in a new tab)" 
-                    id="gofundme-logo">
+                <a href="https://www.gofundme.com/f/clonmel-pride-2022?qid=5cfbb19d66d37fb4af51a086880ccb84"
+                    target="_blank">
+                    <img src="assets/images/logos/gofundme-logo.png" alt="Go fund me logo"
+                        aria-label="Visit our gofundme page (Opens in a new tab)" id="gofundme-logo">
                 </a>
             </div>
         </section>
 
         <h2>Sponsors:</h2>
         <div id="sponsors">
-        <ul id="sponsor-images">
-            <li><img src="assets/images/logos/boston-scientific-logo.png" alt="Boston scientific logo"></li>
-            <li><img src="assets/images/logos/tipperary-coco-logo.png" alt="Tipperary county council logo"></li>
-            <li><img src="assets/images/logos/south-tipp-development-logo.png" alt="South tipperary development plan logo"></li>
-        </ul>
+            <ul id="sponsor-images">
+                <li><img src="assets/images/logos/boston-scientific-logo.png" alt="Boston scientific logo"></li>
+                <li><img src="assets/images/logos/tipperary-coco-logo.png" alt="Tipperary county council logo"></li>
+                <li><img src="assets/images/logos/south-tipp-development-logo.png"
+                        alt="South tipperary development plan logo"></li>
+            </ul>
         </div>
         <div id="to-top-container">
-        <a href="#" id="to-top-button">Back to top</a>
+            <a href="#" id="to-top-button">Back to top</a>
         </div>
     </main>
 
@@ -183,36 +215,43 @@
 
     <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
 
+    <!-- Script for slideshow - taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->
     <script>
         var slidePosition = 1;
-SlideShow(slidePosition);
+        SlideShow(slidePosition);
 
-// forward/Back controls
-function plusSlides(n) {
-  SlideShow(slidePosition += n);
-}
+        // forward/Back controls
+        function plusSlides(n) {
+            SlideShow(slidePosition += n);
+        }
 
-//  images controls
-function currentSlide(n) {
-  SlideShow(slidePosition = n);
-}
+        //  images controls
+        function currentSlide(n) {
+            SlideShow(slidePosition = n);
+        }
 
-function SlideShow(n) {
-  var i;
-  var slides = document.getElementsByClassName("Containers");
-  var circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < circles.length; i++) {
-      circles[i].className = circles[i].className.replace(" enable", "");
-  }
-  slides[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
-} 
+        function SlideShow(n) {
+            var i;
+            var slides = document.getElementsByClassName("Containers");
+            var circles = document.getElementsByClassName("dots");
+            if (n > slides.length) {
+                slidePosition = 1
+            }
+            if (n < 1) {
+                slidePosition = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < circles.length; i++) {
+                circles[i].className = circles[i].className.replace(" enable", "");
+            }
+            slides[slidePosition - 1].style.display = "block";
+            circles[slidePosition - 1].className += " enable";
+        }
     </script>
+
+    <!-- End of script for slideshow - taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->
 </body>
 
 </html>

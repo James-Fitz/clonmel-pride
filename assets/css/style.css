@@ -418,10 +418,11 @@ footer {
 
 .contact-us-form {
 
-    margin: 120px 50% 0 0;
+    margin: 120px 0 0 0;
     color: #dedede;
     background-color: rgba(53, 60, 64, 0.75);
-    max-width: 500px;
+    border-radius: 25px;
+    max-width: 700px;
     position: relative;
     left: 10%;
     padding: 30px;
@@ -452,6 +453,7 @@ form input[type="radio"] {
 
 .contact-us-form div {
     padding: 5px;
+    margin-left: 50px;
 }
 
 .text-input:hover {
@@ -518,4 +520,15 @@ textarea:focus {
 }
 
 /* Media queries */ 
-/* 700px breakpoint for nav menu at top of screen */
+/* Breakpoint of 850px */
+
+@media screen and (max-width: 850px) {
+    .contact-us-form {
+        width: 450px
+    }
+
+    .contact-us-form #contact-title {
+        font-size: 150%;
+    }
+}
+

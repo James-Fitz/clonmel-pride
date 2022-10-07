@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head section containing all metadata and link to style sheet -->
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +11,21 @@
     <meta name="keywords" content="clonmel, pride, lgbt, lgbtq+, equality, queer, events, drag, parade, Tipperary">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Clonmel Pride</title>
+    <title>Pride Gallery</title>
 </head>
 
+<!-- Body section containing all section of visible html code -->
 <body>
+    <!-- Header containing logo and navigation menu -->
     <header>
-        <div id="logo-background">
-            <a href="index.html">
-                <img src="assets/images/Clonmel Pride Logo.png" alt="Clonmel pride logo" id="logo">
+        <div id="logo-container">
+            <!-- Clickable logo which navigates to the index.html page -->
+            <div id="logo"><a href="index.html"><img src="assets/images/logos/Clonmel Pride Logo.png"
+                        alt="Clonmel pride logo">
+                </a>
+            </div>
         </div>
-        </a>
+        <!-- Navigation bar containing links to index.html, gallery.html, #donate section of index page and contact-us.html  -->
         <nav id="menu">
             <ul>
                 <li>
@@ -28,15 +35,78 @@
                     <a href="gallery.html" class="active">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html#donate">Donate</a>
+                    <a href="#donate">Donate</a>
                 </li>
                 <li>
-                    <a href="contact-us.html">Contact Us</a>
+                    <a href="contact-us.html">Contact us</a>
                 </li>
             </ul>
         </nav>
+    </header>
 
-        <footer>sponsors - icons linking to socials</footer>
+    <main>
+        <section>
+
+            <nav id="gallery-menu">
+                <ul>
+                    <li>
+                        <a href="#2020-pics">2020</a>
+                    </li>
+                    <li><a href="#2021-pics">2021</a>
+                    </li>
+                    <li><a href="#2022-pics">2022</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </section>
+
+        <section id="2022-pics">
+            <h2>2022</h2>
+        </section>
+
+        <section id="2021-pics">
+            <h2>2021</h2>
+        </section>
+
+        <section id="2020-pics">
+            <h2>2020</h2>
+        </section>
+
+    </main>
+
+        <!-- Footer containing clickable icons which navigate to their respective pages in new tabs -->
+    <footer>
+
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com/TippClonmelCommunityPride/" target="_blank" rel="noopener"
+                    aria-label="Visits our Facebook page (Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/clonmelpride/" target="_blank" rel="noopener"
+                    aria-label="Visits our Instagram page (Opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UC9km42xECdJf3NGxoRy0BLg" target="_blank" rel="noopener"
+                    aria-label="Visits our Youtube page (Opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="malito:tipperaryclonmelpride@gmail.com" target="_blank" rel="noopener"
+                    aria-label="Send an email to our gmail account (Opens in a new tab)"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </li>
+        </ul>
+
+
+
+    </footer>
+
+    <!-- Font Awesome script-->
+
+    <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -21,7 +21,6 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     color: #353C40;
     padding-bottom: 100px;
     background: url("../images/rainbow-road.jpg") no-repeat center center;
@@ -42,8 +41,7 @@ header {
 
 /* Styling for any h1 elements */
 
-h1,
-h2 {
+h1 {
     font-family: 'Fira Sans', sans-serif;
     color: #ffffff;
     font-size: 75px;
@@ -52,12 +50,19 @@ h2 {
     text-shadow: -1px 2px 20px #353C40;
 }
 
+/* Styling for any h2 element */
+
 h2 {
+    
     font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
     font-size: 40px;
+    margin: 20px 0 5px 0;
     text-align: center;
     margin: 20px 0 5px 0;
 }
+
+/* Styling for any p element */
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -66,7 +71,7 @@ p {
     background-color: rgba(222, 222, 222, 0.5);
     border-radius: 25px;
     font-size: 25px;
-    margin: 0 450px;
+    margin: 10px;
     padding: 10px;
     text-align: center;
 }
@@ -106,17 +111,14 @@ p {
     /*positions the logo in the center of the parent container horizontally */
     display: flex;
     justify-content: center;
-
 }
 
 #logo:hover {
-
-    scale: 1.1;
     /*applies the scale transition on hover*/
+    scale: 1.1;
 }
 
 /* Styling nav bar at top of page */
-
 
 #menu {
     float: right;
@@ -155,46 +157,6 @@ p {
 
 #menu .active {
     border-bottom: 2px solid #353C40;
-}
-
-/* Styling for footer */
-
-footer {
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    border: 1px solid #353C40;
-    background-color: rgba(222, 222, 222, 0.5);
-    position: fixed;
-}
-
-.social-icons {
-
-    padding-top: 13px;
-    text-align: center;
-    height: 60px;
-}
-
-.social-icons i {
-    font-size: 200%;
-    color: #353C40;
-    margin: 0 15px;
-
-}
-
-.social-icons>li {
-    display: inline;
-}
-
-.social-icons li i {
-
-    transition: 300ms;
-}
-
-.social-icons li i:hover {
-
-    opacity: 30%;
-
 }
 
 /* index.html styling */
@@ -243,7 +205,7 @@ footer {
 */
 
 /* Styling zoom effect for hero image */
-
+/* 
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -252,9 +214,8 @@ footer {
     to {
         transform: scale(1.1);
     }
-}
+} */
 
-*/
 /* Styling for video on home page */
 
 /* #video-container {
@@ -411,8 +372,6 @@ footer {
     display: inline-block;
 }
 
-
-
 /* Styling for back to top button */
 #to-top-container {
     text-align: center;
@@ -434,6 +393,8 @@ footer {
 }
 
 /* Styling for gallerty.html */
+
+/* Styling for gallery.html navigation bar */
 
 #gallery-menu {
 
@@ -468,7 +429,6 @@ footer {
 }
 
 /* Styling for contact-us.html */
-
 
 #contact-title {
 
@@ -533,6 +493,8 @@ textarea:focus {
 
 }
 
+/* Styling for send message button on contact form */
+
 .send-message {
     margin: 20px 0 0 10px;
     border-radius: 2px;
@@ -577,6 +539,46 @@ textarea:focus {
     text-align: left;
     font-size: 150%;
     opacity: 0.25;
+}
+
+/* Styling for footer */
+
+footer {
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    border: 1px solid #353C40;
+    background-color: rgba(222, 222, 222, 0.5);
+    position: fixed;
+}
+
+.social-icons {
+
+    padding-top: 13px;
+    text-align: center;
+    height: 60px;
+}
+
+.social-icons i {
+    font-size: 200%;
+    color: #353C40;
+    margin: 0 15px;
+
+}
+
+.social-icons>li {
+    display: inline;
+}
+
+.social-icons li i {
+
+    transition: 300ms;
+}
+
+.social-icons li i:hover {
+
+    opacity: 30%;
+
 }
 
 /* Media queries */

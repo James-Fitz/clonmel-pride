@@ -53,7 +53,7 @@ h1 {
 /* Styling for any h2 element */
 
 h2 {
-    
+
     font-family: 'Fira Sans', sans-serif;
     color: #ffffff;
     font-size: 40px;
@@ -157,6 +157,46 @@ p {
 
 #menu .active {
     border-bottom: 2px solid #353C40;
+}
+
+/* Styling for footer */
+
+footer {
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    border: 1px solid #353C40;
+    background-color: rgba(222, 222, 222, 0.5);
+    position: fixed;
+}
+
+.social-icons {
+
+    padding-top: 13px;
+    text-align: center;
+    height: 60px;
+}
+
+.social-icons i {
+    font-size: 200%;
+    color: #353C40;
+    margin: 0 15px;
+
+}
+
+.social-icons>li {
+    display: inline;
+}
+
+.social-icons li i {
+
+    transition: 300ms;
+}
+
+.social-icons li i:hover {
+
+    opacity: 30%;
+
 }
 
 /* index.html styling */
@@ -541,45 +581,7 @@ textarea:focus {
     opacity: 0.25;
 }
 
-/* Styling for footer */
 
-footer {
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    border: 1px solid #353C40;
-    background-color: rgba(222, 222, 222, 0.5);
-    position: fixed;
-}
-
-.social-icons {
-
-    padding-top: 13px;
-    text-align: center;
-    height: 60px;
-}
-
-.social-icons i {
-    font-size: 200%;
-    color: #353C40;
-    margin: 0 15px;
-
-}
-
-.social-icons>li {
-    display: inline;
-}
-
-.social-icons li i {
-
-    transition: 300ms;
-}
-
-.social-icons li i:hover {
-
-    opacity: 30%;
-
-}
 
 /* Media queries */
 /* Breakpoint of 850px */

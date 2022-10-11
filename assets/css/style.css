@@ -437,12 +437,13 @@ footer {
 /* Styling for gallery.html navigation bar */
 
 #gallery-menu {
-
-    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 15px;
     background-color: rgba(222, 222, 222, 0.5);
     border-radius: 25px;
-    margin: 20px, 300px;
 }
 
 #gallery-menu ul {

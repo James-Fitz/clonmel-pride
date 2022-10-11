@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head section containing all metadata and link to style sheet -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clonmel Pride home page for all information and events">
+    <meta name="keywords" content="clonmel, pride, lgbt, lgbtq+, equality, queer, events, drag, parade, Tipperary, thanks, thank you">
+    <meta http-equiv="refresh" content ="10; url="index.html">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Thank You</title>
+</head>
+
+<!-- Body section containing all section of visible html code -->
+
+<body>
+    <!-- Header containing logo and navigation menu -->
+    <header>
+        <div id="logo-container">
+            <!-- Clickable logo which navigates to the index.html page -->
+            <div id="logo"><a href="index.html"><img src="assets/images/logos/Clonmel Pride Logo.png"
+                        alt="Clonmel pride logo">
+                </a>
+            </div>
+        </div>
+        <!-- Navigation bar containing links to index.html, gallery.html, #donate section of index page and contact-us.html  -->
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="#donate">Donate</a>
+                </li>
+                <li>
+                    <a href="contact-us.html"  class="active">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main section of index.html page -->
+    <main>
+    
+        <h2>Your message has been sent</h2>
+            <h3>Thank you for contacting us</h3>
+
+    </main>
+    <!-- Footer containing clickable icons which navigate to their respective pages in new tabs -->
+    <footer>
+
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com/TippClonmelCommunityPride/" target="_blank" rel="noopener"
+                    aria-label="Visits our Facebook page (Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/clonmelpride/" target="_blank" rel="noopener"
+                    aria-label="Visits our Instagram page (Opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UC9km42xECdJf3NGxoRy0BLg" target="_blank" rel="noopener"
+                    aria-label="Visits our Youtube page (Opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="malito:tipperaryclonmelpride@gmail.com" target="_blank" rel="noopener"
+                    aria-label="Send an email to our gmail account (Opens in a new tab)"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </li>
+        </ul>
+
+
+
+    </footer>
+
+    <!-- Font Awesome script-->
+
+    <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
+
+    <!-- Script for slideshow - taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->
+    <script>
+        var slidePosition = 1;
+        SlideShow(slidePosition);
+
+        // forward/Back controls
+        function plusSlides(n) {
+            SlideShow(slidePosition += n);
+        }
+
+        //  images controls
+        function currentSlide(n) {
+            SlideShow(slidePosition = n);
+        }
+
+        function SlideShow(n) {
+            var i;
+            var slides = document.getElementsByClassName("Containers");
+            var circles = document.getElementsByClassName("dots");
+            if (n > slides.length) {
+                slidePosition = 1
+            }
+            if (n < 1) {
+                slidePosition = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < circles.length; i++) {
+                circles[i].className = circles[i].className.replace(" enable", "");
+            }
+            slides[slidePosition - 1].style.display = "block";
+            circles[slidePosition - 1].className += " enable";
+        }
+    </script>
+
+    <!-- End of script for slideshow - taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->
+
+</body>
+
+</html>

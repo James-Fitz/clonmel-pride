@@ -293,12 +293,12 @@ footer {
 }
 
 /* Make the images invisible by default */
-.Containers {
+.containers {
     display: none;
 }
 
 /* forward & Back buttons */
-.Back,
+.back,
 .forward {
     cursor: pointer;
     position: absolute;

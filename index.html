@@ -100,7 +100,7 @@
             <!-- Slideshow container -->
             <div class="slideshow-container fade">
 
-                <!-- Full images with numbers and message Info -->
+                <!-- Full images -->
                 <div class="Containers">
                     <img src="assets/images/events/friday-poster.png" style="width:100%">
                 </div>
@@ -166,7 +166,8 @@
             </p>
             <div id="gofundme-button">
                 <a href="https://www.gofundme.com/f/clonmel-pride-2022?qid=5cfbb19d66d37fb4af51a086880ccb84"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener">
                     <img src="assets/images/logos/gofundme-logo.png" alt="Go fund me logo"
                         aria-label="Visit our gofundme page (Opens in a new tab)" id="gofundme-logo">
                 </a>
@@ -220,41 +221,7 @@
 
     <script src="https://kit.fontawesome.com/2806e9de79.js" crossorigin="anonymous"></script>
 
-    <!-- Script for slideshow - taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->
-    <script>
-        var slidePosition = 1;
-        SlideShow(slidePosition);
-
-        // forward/Back controls
-        function plusSlides(n) {
-            SlideShow(slidePosition += n);
-        }
-
-        //  images controls
-        function currentSlide(n) {
-            SlideShow(slidePosition = n);
-        }
-
-        function SlideShow(n) {
-            var i;
-            var slides = document.getElementsByClassName("Containers");
-            var circles = document.getElementsByClassName("dots");
-            if (n > slides.length) {
-                slidePosition = 1
-            }
-            if (n < 1) {
-                slidePosition = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < circles.length; i++) {
-                circles[i].className = circles[i].className.replace(" enable", "");
-            }
-            slides[slidePosition - 1].style.display = "block";
-            circles[slidePosition - 1].className += " enable";
-        }
-    </script>
+    <script src="js/script.js"></script>
 
     <!-- End of script for slideshow - taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/-->
 

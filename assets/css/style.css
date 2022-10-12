@@ -426,6 +426,7 @@ footer {
 #sponsors {
     text-align: center;
     margin-bottom: 10px;
+    margin-right: 6%;
 }
 
 #sponsor-images img {
@@ -670,10 +671,7 @@ textarea:focus {
         margin: 5vw;
 
     }
-
-
 }
-
 /* Breakpoint of 600px */
 
 @media screen and (max-width: 600px) {
@@ -706,8 +704,8 @@ textarea:focus {
 
 @media screen and (max-width: 550px) {
     .contact-us-form {
-        max-width: 300px;
-        margin: 100px 0 0 10px;
+        max-width: 100vw;
+        
     }
 }
 
@@ -747,8 +745,7 @@ textarea:focus {
     }
 
     .contact-us-form {
-        max-width: 300px;
-        margin: 100px 0 0 0px;
-        left: 0;
+        max-width: 90vw;
+    
     }
 }

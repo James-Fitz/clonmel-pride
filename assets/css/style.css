@@ -446,14 +446,16 @@ footer {
     align-items: center;
     justify-content: center;
     bottom: 15px;
-    background-color: rgba(222, 222, 222, 0.5);
-    border-radius: 25px;
+   
 }
 
 #gallery-menu ul {
     list-style-type: none;
     font-size: 140%;
-    padding: 10px
+    padding: 1% 1% 1% 4%;
+    background-color: rgba(222, 222, 222, 0.5);
+    border-radius: 25px;
+    text-align: center;
 }
 
 #gallery-menu ul li {
@@ -476,7 +478,7 @@ footer {
 /* Styling for photos on gallery page */
 
 .pics {
-        margin-left: 20px ;
+        margin-left: 2% ;
         clear: both;
         line-height: 2px;
         column-count: 3;

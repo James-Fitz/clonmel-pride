@@ -375,6 +375,35 @@ footer {
 /* End of code taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/ for slideshow */
 
 
+/* Styling for events information section */
+
+#events-container {
+    width: 100%;
+}
+
+.events {
+    display: inline-block;
+    width: 33%;
+    height: max-content;
+    padding: 2%;
+    text-align: center;
+    background-color:rgba(222, 222, 222, 0.5);
+    border-radius: 25px;
+    margin-bottom: 5%;
+    vertical-align: top;
+
+}
+
+.events > p {
+    background-color:rgba(222, 222, 222, 0);
+    padding: 0%;
+}
+
+.events > h3 {
+    font-size: 200%;
+    padding: 0%;
+    margin-top: 15%;
+}
 /* Styling for GoFundMe Logo */
 
 #gofundme-logo {
@@ -402,9 +431,9 @@ footer {
 #sponsor-images img {
     max-width: 200px;
     max-height: auto;
-    margin: 0 35px 25px 0;
     background-color: rgba(222, 222, 222, 0.5);
-    padding: 10px;
+    padding: 10%;
+    margin: 5%;
     border-radius: 25px;
 
 }
@@ -636,6 +665,12 @@ textarea:focus {
         margin-bottom: 25px;
     }
 
+    .events {
+        width: 90%;
+        margin: 5vw;
+
+    }
+
 
 }
 
@@ -680,11 +715,6 @@ textarea:focus {
 
 @media screen and (max-width: 500px) {
 
-    #sponsor-images img {
-        max-width: 100px;
-        max-height: auto;
-        margin: 20px 35px 25px 35px;
-    }
 
     #menu ul {
         right: 0;
@@ -696,14 +726,14 @@ textarea:focus {
 
 @media screen and (max-width: 400px) {
     .slideshow-container {
-        max-width: 300px;
-        margin: 0;
+        max-width: 90vw;
+        margin: 5%;
     }
 
     .slideshow-container img {
-        max-width: 250px;
-        margin: 0;
-        padding-left: 25px;
+        max-width: 90vw;
+        padding: 5%;
+        margin-left: 0;
     }
 
     h1 {

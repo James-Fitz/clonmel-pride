@@ -1,108 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Pride Logo](/assets/images/logos/clonmel-pride-logo.png)
+# Clonmel Pride Webpage
 
-Welcome James Fitzpatrick,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Image of site on different devices](/assets/images/readme-pics/am-i-responsive.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Live site available to view [here](https://james-fitz.github.io/portfolio-project-1/)
 
-## Gitpod Reminders
+## Introduction
+Having spoken with the Chairperson of Clonmel Pride, we have decided that there is a definitive need for a website which displays and organises all of the Clonmel Pride information in one easy to use hub.
+This site will allow users to navigate the site easily and intuitively using the navigation bar at the top of all pages, see upcoming events in a slideshow of posters and a summary of each day located below the poster slideshow, view a gallery containing images from current and previous Pride events, donate to the Pride organization through an external link to the festivals gofundme page, and contact the Pride committee directly through a contact form.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Features
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Existing Features
+•	Navigation Bar
+	Featured on all three pages, the fullly responsive navigation bar includes links to the “Home” page, “Gallery” page, donation section of the "Home" page, and a “Contact Us” page. This navigation bar is identical across all three pages, and fully responsive to screen size.
+o	There is a logo in the top left corner of all pages which will link back to the “Home” page.
+    This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+    ![Navigation bar](assets/images/readme-pics/navbar.jpg)
 
-`python3 -m http.server`
+**Pic of landing page**
+ About us section
+The about us section contains so key information about the inception of Clonmel Pride and a basic overview of the values and goals of  the Clonmel Pride team.
 
-A blue button should appear to click: _Make Public_,
+**Pic of the about us section**
 
-Another blue button should appear to click: _Open Browser_.
+•	Upcoming events  section
+o	This section will allow the user to see exactly what events will be happening for the Clonmel Pride festival. We will have a slideshow of posters which will give the user all of the information for the specific pride events.
+o	This section will also contain a summary of daily events separated into each day underneath the posters to give users an overview and outline of all events.
+** Picture of the upcoming events section**
+•	The Footer
+o	The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+o	The footer is valuable to the user as it encourages them to keep connected via social media
+** Picture of the Footer 
+•	Gallery Page
+o	The gallery will provide the user with images from previous Pride events.
+o	This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together and determine if it is something that will interest them.
+**Pic of the gallery page**
+•	The Contact Us Page
+o	This page will allow the user to get in touch with the pride team. The user will be able specify if they would like receive more information, get involved, get support, volunteer, host an event or sponsor an event.. The user will be asked to submit their full name, email address and a message to the pride team.
+o	This radio button choice on the form will allow the information to be filter by required information. This will make it easy for the Pride team to filter the messages and prioritize the replies.
+**Pic of the contact us form**
+Feature implemented on the website
+Fully functioning navigation bar .
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+Future features that may be implemented
+•	A larger gallery area which includes more pictures can be added at a future date, possibly adding separate pages for each year.
+•	Implementation of a form to allow users to book events through the webpage using Eventbrite.
+•	A section to livestream future Pride events that would be viewable by users.
+Testing
+Testing of this webpage has been ongoing during the project.
+The webpage was deployed half way through the completion of the project to ensure an appropriate amount of testing could be completed.
+The website was tested fully on the following browsers: 
+•	Google chrome.
+•	Mozzilla Firefox
+•	Brave
+•	Safari
+•	Android mobile
+•	IOS mobile
+All of the elements loaded correctly in an appropriate timeframe.
+The webpage is responsive on all devices and different screen sizes to as low as 320px screen width.
+All features worked as intended on all platforms. 
+The navigation bar at the top of the page linked to all of the correct pages and sections. 
+The logo loaded correctly and always linked back to the index.html page. The slideshow worked correctly on all platforms and screen sizes. 
+The footer linked to all of the appropriate external areas on all platforms.  
+The gallery page is viewable and correctly sized to ensure a pleasant user experience across all screen sizes. 
+The “Donate” nav element will link the user back to the index.html page and navigate to the donate section of the page. 
+The form requires users to fill in all information and cannot be submitted without a first name, last name, email address, radio box selection and message. Once submitted, users are taken to a thank you page for 5 seconds and the redirected to the home page. This feature works on all devices and browsers. 
 
-Another blue button should appear to click: _Open Browser_.
+Validator Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+HTML
+ No errors were returned when passing through the official W3C validator
+CSS
+ No errors were found when passing through the official (Jigsaw) validator
 
-To log into the Heroku toolbelt CLI:
+Unfixed Bugs
+ No unfixed bugs were left in the code.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Deployment
+This project was deployed using Github pages. The steps used to deploy the page are as follows:
+•	In the GitHub repository, navigate to the Settings tab.
+•	On the left hand side of the page, under “code and automation”, click on the “pages” section.
+•	Select the “main” branch to deploy the page from.
+•	Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The live link can be found here - https://james-fitz.github.io/portfolio-project-1/
 
-------
+Credits
 
-## Release History
+Content
+•	The text content on the home page was supplied by Clonmel Pride.
+•	The code and styling for the slideshow on the index.html page was taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/
+•	The icons in the footer, contact page and donate section were taken from Font Awesome.
+Media
+•	The logo was supplied by Clonmel Pride.
+•	The poster images were supplied by Clonmel Pride.
+•	Sponsor logos and gofundme logos were taken from google. 
+•	The images in the gallery were provided by Clonmel Pride and Eric Brown.
+•	Background rainbow image was taken from unsplash.com
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Additional  Help
+•	Mentor Chris Quinn advised implementation of a separate javascript file for the slideshow script.
+•	Mentor also advised implementation of a separate “thank-you” page after submitting the contact form.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

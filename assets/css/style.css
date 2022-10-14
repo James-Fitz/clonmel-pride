@@ -253,18 +253,6 @@ footer {
     }
 }
 
-/* Styling for video on home page */
-
-#video-container {
-    margin: 20px 20px;
-}
-
-#video {
-    width: 80%;
-    text-align: center;
-    margin: 20px 20px;
-}
-
 /* Styling for slideshow - code taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/ */
 
 * {

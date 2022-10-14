@@ -116,7 +116,8 @@ p {
 
 #logo:hover {
     /*applies the scale transition on hover*/
-    scale: 1.1;
+    transform: scale(1.1);
+
 }
 
 /* Styling nav bar at top of page */
@@ -309,7 +310,7 @@ footer {
 }
 
 /*when the user hovers,add a black background with some little opacity */
-.Back:hover,
+.back:hover,
 .forward:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -345,7 +346,7 @@ footer {
     }
 
     to {
-        opacity: 2
+        opacity: 1
     }
 }
 
@@ -355,7 +356,7 @@ footer {
     }
 
     to {
-        opacity: 2
+        opacity: 1
     }
 }
 
@@ -402,7 +403,7 @@ footer {
 
 #gofundme-logo:hover {
     opacity: 0.5;
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 #gofundme-button {
@@ -419,7 +420,6 @@ footer {
 
 #sponsor-images img {
     max-width: 200px;
-    max-height: auto;
     background-color: rgba(222, 222, 222, 0.5);
     padding: 10%;
     margin: 5%;

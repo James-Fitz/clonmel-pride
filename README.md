@@ -94,6 +94,9 @@ HTML
  No errors were returned when passing through the official W3C validator
 CSS
  No errors were found when passing through the official (Jigsaw) validator
+### Fixed Bugs
+
+There was a white line on the right hand side of all pages. This was caused by the header being slightly lager than the background. Lowering header width fixed the issue.
 
 ### Unfixed Bugs
  No unfixed bugs were left in the code.

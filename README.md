@@ -71,12 +71,12 @@ o	This radio button choice on the form will allow the information to be filter b
 Testing of this webpage has been ongoing during the project.
 The webpage was deployed half way through the completion of the project to ensure an appropriate amount of testing could be completed.
 The website was tested fully on the following browsers: 
-•	Google chrome.
-•	Mozzilla Firefox
-•	Brave
-•	Safari
-•	Android mobile
-•	IOS mobile
+-	__Google chrome__
+-	__Mozzilla Firefox__
+-	__Brave__
+-	__Safari__
+-	__Android mobile__
+-	__IOS mobile__
 
 All of the elements loaded correctly in an appropriate timeframe.
 The webpage is responsive on all devices and different screen sizes to as low as 320px screen width.
@@ -119,7 +119,7 @@ The live link can be found [here](https://james-fitz.github.io/portfolio-project
 ### Media
 •	The logo was supplied by Clonmel Pride.
 •	The poster images were supplied by Clonmel Pride.
-•	Sponsor logos and gofundme logos were taken from google. 
+•	Sponsor logos and gofundme logos were taken from their respective websites. 
 •	The images in the gallery were provided by Clonmel Pride and Eric Brown.
 •	Background rainbow image was taken from [Unsplash](https://unsplash.com/photos/VxKUQY3tLNs)
 

@@ -204,8 +204,6 @@ footer {
 
 /* Styling for the hero-image" */
 
-
-/* commenting out for now
 #hero-outer {
     height: 700px;
     width: 100%;
@@ -216,9 +214,9 @@ footer {
 #hero-image {
     height: 700px;
     width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url(../images/prideparade.jpg) no-repeat center center;
+
     /* animates zoom effect on loading page */
-/*
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -227,14 +225,15 @@ footer {
 #cover-text, #cover-text h2, #cover-text h3 {
     color: #353C40;
     text-align: left;
+    text-shadow:none;
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 2em;
     font-family: 'Fira Sans', sans-serif;
     width: 300px;
     height: 150px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 20px;
     background-color:rgba(222, 222, 222, 0.75);
     border-radius: 25px;
@@ -243,10 +242,7 @@ footer {
     position: absolute;
 }
 
-*/
-
 /* Styling zoom effect for hero image */
-/* 
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -255,11 +251,11 @@ footer {
     to {
         transform: scale(1.1);
     }
-} */
+}
 
 /* Styling for video on home page */
 
-/* #video-container {
+#video-container {
     margin: 20px 20px;
 }
 
@@ -267,7 +263,7 @@ footer {
     width: 80%;
     text-align: center;
     margin: 20px 20px;
-} */
+}
 
 /* Styling for slideshow - code taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/ */
 
@@ -649,7 +645,7 @@ textarea:focus {
 
 @media screen and (max-width: 850px) {
     .contact-us-form {
-        width: 450px
+        width: 80vw;
     }
 
     .contact-us-form #contact-title {
@@ -661,7 +657,7 @@ textarea:focus {
         ;
     }
 
-    p {
+    #main-text  p, #donate-text p {
         font-size: 110%;
         margin-bottom: 25px;
     }
@@ -696,17 +692,6 @@ textarea:focus {
     #menu ul li {
         text-align: center;
     }
-
-
-}
-
-/* Breakpoint of 550px */
-
-@media screen and (max-width: 550px) {
-    .contact-us-form {
-        max-width: 100vw;
-        
-    }
 }
 
 /* Breakpoint of 500px */
@@ -716,6 +701,24 @@ textarea:focus {
 
     #menu ul {
         right: 0;
+    }
+
+    #cover-text {
+        width: 55%;
+        height: auto;
+    }
+
+    #cover-text h2 {
+        font-size: 70%;
+        padding-right: 10%;
+    }
+
+    .contact-us-form div {
+        margin-left: 0;
+    }
+
+    .contact-us-form h3 {
+        font-size: 100%;
     }
 }
 
@@ -738,14 +741,8 @@ textarea:focus {
         margin-top: 80px;
         ;
     }
-
-    p {
-        font-size: 90%;
-        margin-bottom: 25px;
-    }
-
     .contact-us-form {
-        max-width: 90vw;
-    
+        width: 100vw;
+        left: 0;
     }
 }

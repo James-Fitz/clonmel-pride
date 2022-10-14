@@ -105,20 +105,20 @@ This project was deployed using Github pages. The steps used to deploy the page 
 •	Select the “main” branch to deploy the page from.
 •	Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://james-fitz.github.io/portfolio-project-1/
+The live link can be found [here](https://james-fitz.github.io/portfolio-project-1/)
 
 ## Credits
 
 ### Content
 •	The text content on the home page was supplied by Clonmel Pride.
-•	The code and styling for the slideshow on the index.html page was taken from https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/
-•	The icons in the footer, contact page and donate section were taken from Font Awesome.
+•	The code and styling for the slideshow on the index.html page was taken from [Section.io](https://www.section.io/engineering-education/how-to-make-an-image-carousel-for-your-website/)
+•	The icons in the footer, contact page and donate section were taken from [Font Awesome](https://fontawesome.com/)
 ### Media
 •	The logo was supplied by Clonmel Pride.
 •	The poster images were supplied by Clonmel Pride.
 •	Sponsor logos and gofundme logos were taken from google. 
 •	The images in the gallery were provided by Clonmel Pride and Eric Brown.
-•	Background rainbow image was taken from unsplash.com
+•	Background rainbow image was taken from [Unsplash](https://unsplash.com/photos/VxKUQY3tLNs)
 
 ### Additional  Help
 •	Mentor Chris Quinn advised implementation of a separate javascript file for the slideshow script.

@@ -100,12 +100,18 @@ Testing of this webpage has been ongoing during the project.
 The webpage was deployed half way through the completion of the project to ensure an appropriate amount of testing could be completed.
 
 The website was tested fully on the following browsers: 
--   __Google chrome__	
--   __Mozzilla Firefox__	
+-   __Google chrome__
+![Google chrome test results](assets/images/readme-pics/clonmel-pride-chrome.jpg)	
+-   __Mozzilla Firefox__
+![Mozilla firefox test results](assets/images/readme-pics/clonmel-pride-firefox.jpg)	
 -   __Brave__	
+![Brave test results](assets/images/readme-pics/clonmel-pride-brave.jpg)
 -   __Safari__	
+![Safari test results](assets/images/readme-pics/clonmel-pride-firefox.jpg)
 -   __Android mobile__	
+![Android mobile test results](assets/images/readme-pics/clonmel-pride-android.jpg) 
 -   __IOS mobile__
+![IOS mobile test results](assets/images/readme-pics/clonmel-pride-ios.jpg) 
 
 ---
 

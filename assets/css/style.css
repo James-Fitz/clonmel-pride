@@ -69,7 +69,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #353C40;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 25px;
     font-size: 25px;
     margin: 10px;
@@ -103,7 +103,7 @@ p {
 #logo-container {
 
     text-align: center;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 50%;
     margin: 15px;
     width: 150px;
@@ -127,7 +127,7 @@ p {
     position: absolute;
     bottom: 15px;
     right: 0px;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 25px;
 }
 
@@ -167,7 +167,7 @@ footer {
     height: 60px;
     width: 100%;
     border: 1px solid #353C40;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     position: fixed;
 }
 
@@ -236,7 +236,7 @@ footer {
     width: 300px;
     height: 150px;
     padding-left: 20px;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 25px;
     bottom: 75px;
     right: 75px;
@@ -309,7 +309,7 @@ footer {
 /*when the user hovers, add a black background with a little opacity */
 .back:hover,
 .forward:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* The circles or bullets and indicators */
@@ -372,7 +372,7 @@ footer {
     height: max-content;
     padding: 2%;
     text-align: center;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 25px;
     margin-bottom: 5%;
     vertical-align: top;
@@ -417,7 +417,7 @@ footer {
 
 #sponsor-images img {
     max-width: 200px;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     padding: 10%;
     margin: 5%;
     border-radius: 25px;
@@ -468,7 +468,7 @@ footer {
     list-style-type: none;
     font-size: 140%;
     padding: 1% 1% 1% 4%;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 25px;
     text-align: center;
 }
@@ -625,7 +625,7 @@ textarea:focus {
     text-align: center;
     margin: 20% 15% 30% 15%;
     padding: 5%;
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(220, 220, 220, 0.7);
     border-radius: 25px;
     text-shadow: -1px 1px 6px #353C40;
 }
@@ -674,7 +674,7 @@ textarea:focus {
     }
 
     #menu ul {
-        background-color: rgba(220, 220, 220, 0.8);
+        background-color: rgba(220, 220, 220, 0.7);
         border-radius: 25px;
         margin-right: 10px;
         text-align: center;

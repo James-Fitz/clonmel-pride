@@ -47,7 +47,7 @@ h1 {
     font-size: 3em;
     margin: 75px 10px 10px 10px;
     text-align: center;
-    text-shadow: -1px 2px 20px #353C40;
+    text-shadow: -1px 1px 6px #353C40;
 }
 
 /* Styling for any h2 element */
@@ -60,7 +60,7 @@ h2 {
     margin: 20px 0 5px 0;
     text-align: center;
     margin: 20px 0 5px 0;
-    text-shadow: -1px 2px 20px #353C40;
+    text-shadow: -1px 1px 6px #353C40;
 }
 
 /* Styling for any p elements */
@@ -627,7 +627,7 @@ textarea:focus {
     padding: 5%;
     background-color: rgba(220, 220, 220, 0.8);
     border-radius: 25px;
-    text-shadow: -1px 2px 20px #353C40;
+    text-shadow: -1px 1px 6px #353C40;
 }
 
 /* Media queries */

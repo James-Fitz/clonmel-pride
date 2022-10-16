@@ -631,6 +631,13 @@ textarea:focus {
 }
 
 /* Media queries */
+/* Breakpoint of 1000px */
+
+@media screen and (max-width: 1000px) {
+    .pics {
+        column-count: 2;
+    }
+}
 /* Breakpoint of 850px */
 
 @media screen and (max-width: 850px) {
@@ -695,6 +702,15 @@ textarea:focus {
         top: 75px;
         left: 75px;
     }
+
+    .pics {
+            column-count: 1;
+    }
+
+    .pics>img {
+        width: 98%;
+    }
+    
 }
 
 /* Breakpoint of 500px */

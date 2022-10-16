@@ -6,7 +6,7 @@
 
 ---
 
-## Live site available to view [here](https://james-fitz.github.io/portfolio-project-1/)
+## Live site available to view [here](https://james-fitz.github.io/clonmel-pride/)
 
 ---
 
@@ -136,13 +136,19 @@ The website was tested fully on the following browsers:
 ---
 
 ## Deployment
+
+### Cloning/Forking
+
+### Local Deployment
+
+### Remote Deployment
 This project was deployed using Github pages. The steps used to deploy the page are as follows:
 -	In the GitHub repository, navigate to the Settings tab.
 -	On the left hand side of the page, under “code and automation”, click on the “pages” section.
 -	Select the “main” branch to deploy the page from.
 -	Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-## The live link can be found [here](https://james-fitz.github.io/portfolio-project-1/)
+## The live link can be found [here](https://james-fitz.github.io/clonmel-pride/)
 
 ---
 
